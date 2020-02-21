@@ -1,10 +1,16 @@
-package application;
+package Application;
+
+import javax.crypto.spec.PSource;
+
+import BoardGame.Position;
 
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("eae mundo");
+		
+		Position pos = new Position(3, 4);
 
+		System.out.println(pos);
 	}
 
 }
